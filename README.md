@@ -40,5 +40,5 @@ Não foi criado método para ler uma coleção de dados pois acreditava-se que p
 <h2> Observação 2 </h2>
 Método para formatar o tipo do campo não foi implementado dentro da classe, tendo que criar o seu próprio para validar o tipo do banco de dados da sua escolha.
 
-<h3> Observação 3 </h3>
+<h2> Observação 3 </h2>
 Em alguns métodos há o "SET NO COUNT ON;" que é usado no TransactSQL do SQL Server, caso o banco de dados da sua escolha não tenha esta função, deve-se remover.
