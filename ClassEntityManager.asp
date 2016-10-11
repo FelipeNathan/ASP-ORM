@@ -8,7 +8,7 @@
         Private Table, Fields, Values, Types
         
         'Iniciações da classe
-        'Instância de dois dicionários 
+        'Instância de três dicionários 
         'Fields: Relação entre o Campo do BD com Propriedade da classe "pai"
         'Values: Relação entre o Campo do BD com o VALOR da Propriedade da classe "pai"
         'Types:  Tipagem dos Campos do BD
