@@ -34,5 +34,11 @@ Métodos a serem utilizados:
 <b> Load </b><i>(sem parâmetro)</i>: Procura apenas um registro no banco, o ID que for atribuido ao campo PK da classe. (Este método pode ser revisado)
 
 
-<h2> Observação </h2>
+<h2> Observação 1 </h2>
 Não foi criado método para ler uma coleção de dados pois acreditava-se que poderia gerar um carregamento desnecessário à memória do servidor criar várias instâncias do objeto sendo que a busca é feita com as conexões do próprio ASP.
+
+<h2> Observação 2 </h2>
+Método para formatar o tipo do campo não foi implementado dentro da classe, tendo que criar o seu próprio para validar o tipo do banco de dados da sua escolha.
+
+<h3> Observação 3 </h3>
+Em alguns métodos há o "SET NO COUNT ON;" que é usado no TransactSQL do SQL Server, caso o banco de dados da sua escolha não tenha esta função, deve-se remover.
