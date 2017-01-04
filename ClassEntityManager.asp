@@ -1,4 +1,4 @@
-﻿<!-- #include file = '../Repository/Base/SQLFormatter.asp' -->
+﻿<!-- #include file = 'SQLFormatter.asp' -->
 <%
 	Class ClassEntityManager
         
@@ -173,7 +173,7 @@
 
             Select Case LCase(pType)
                 Case "decimal"
-                    FormatType = parseDecimalToSQL(pValue)
+                    FormatType = ParseDecimalToSQL(pValue)
 
                 Case "string"
                     FormatType = ToSqlString(pValue, true)
